@@ -2,7 +2,7 @@
 .env
 *.pyc
 instance/
-.v_env/
+.v_env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
