@@ -36,7 +36,7 @@ class TestCase(db.Model):
     def __repr__(self):
         return f'<TestCase {self.test_case_id}>'
 
-@app.before_first_request
+@app.route('/initialize_the_database')
 def initialize_database():
     # Create all tables
     db.create_all()
